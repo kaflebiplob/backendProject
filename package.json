@@ -2,9 +2,12 @@
   "name": "biplob",
   "version": "1.0.0",
   "description": "backend program",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run start",
+    "dev":" nodemon src/index.js"
   },
   "keywords": [
     "javascript",
@@ -12,5 +15,8 @@
     "backend"
   ],
   "author": "biplob kafle",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
