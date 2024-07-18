@@ -1,0 +1,16 @@
+{
+  "name": "biplob",
+  "version": "1.0.0",
+  "description": "backend program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "react",
+    "backend"
+  ],
+  "author": "biplob kafle",
+  "license": "ISC"
+}
